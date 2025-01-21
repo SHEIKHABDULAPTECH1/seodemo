@@ -1,0 +1,230 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 10px 20px;
+}
+
+nav .logo a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') center center/cover no-repeat;
+    height: 600px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #FF5722;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #E64A19;
+}
+
+/* Attractions Section */
+.attractions {
+    padding: 50px;
+    text-align: center;
+    background-color: #e0f7fa;
+}
+
+.attractions h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.attractions-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.attraction {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.attraction img {
+    width: 100%;
+    height: auto;
+}
+
+.attraction h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+/* Ticket Section */
+.tickets {
+    padding: 50px;
+    background-color: #fff3e0;
+    text-align: center;
+}
+
+.tickets h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.ticket-options {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.ticket {
+    width: 30%;
+    background-color: #ffccbc;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ticket h3 {
+    font-size: 24px;
+}
+
+.ticket p {
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.ticket .btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 50px;
+    background-color: #f1f8e9;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact {
+    padding: 50px;
+    background-color: #c8e6c9;
+}
+
+.contact h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.contact button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
